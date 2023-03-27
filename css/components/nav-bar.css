@@ -1,0 +1,42 @@
+.nav{
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box; /*아래쪽에 고정하기 위해 fixed를 했을때 padding으로 인해 밖으로 나가지 않도록, 사용 안하면 width가 padding만큼 늘어나버림*/
+    background-color: #f9f9fa;
+    padding: 20px 50px;
+    border-top: 1px solid rgba(0,0,0,0.3);
+    position: fixed;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+}
+.nav__link{
+    color: #2e363e;
+    position: relative;
+}
+.nav__notification{
+    background-color:tomato;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    position: absolute; /*link가 relative여야 메세지 아이콘을 기준으로 움직임*/
+    left: 15px;
+    bottom: 15px;
+}
+.ellipsis__notification{
+    background-color:tomato;
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    position: absolute;
+    left: 35px;
+    bottom: 22px;
+}
+
