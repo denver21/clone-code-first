@@ -6,7 +6,7 @@
     background-color:var(--yellow);
     display: flex;
     top: 0;
-    justify-contents: center;
+    justify-content: center;
     align-items: center;
     font-size: 32px;
 }
